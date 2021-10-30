@@ -15,7 +15,7 @@ git clone https://github.com/Mostafa3elewa/Nawy-Assesment.git
 
 ##### 2. Add dependecies
 
-Run the following commands to create and setup the database.
+Run the following commands to add dependecies.
 
 ```node
 npm i
@@ -24,24 +24,31 @@ npm i
 
 ##### 3. Create and setup the database
 
-Run the following commands to create and setup the database, if it's not working already.
+build a .env file with next variables
 
-```ruby
-rails db:seed
+```node
+TOKEN_SECRET=
+DB_HOST=
+DB_NAME=
+DB_USER=
+DB_PASSWORD=
+PORT=5000
 ```
 
 ##### 4. Start the Rails server
 
-You can start the rails server using the command given below.
+You can start the node server using the command given below.
 
-```ruby
-rails s
+```
+npm start server.js
 ```
 
-And now you can visit the site with the URL http://localhost:3000
+And now you can visit the site with the URL http://localhost:5000
 
 
-
+```
+link to documentation
+```
 
 
 
