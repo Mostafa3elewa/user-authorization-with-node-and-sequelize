@@ -6,7 +6,7 @@ const generateToken = (id) => {
   return jwt.sign({ id }, process.env.TOKEN_SECRET, {
     expiresIn: "3h",
   });
-  console.log(process.env.TOKEN_SECRET);
+  // console.log(process.env.TOKEN_SECRET);
 };
 
 module.exports = generateToken;

@@ -45,12 +45,15 @@ module.exports = User = db.define(
     },
   }
 );
-User.hasMany(Role, { onDelete: "cascade" });
+User.hasMany(Role, { as: "roles", onDelete: "cascade" });
 Role.belongsTo(User, {
+  as: "user",
   foreignKey: {
     type: Sequelize.INTEGER,
   },
 });
+
+/////////////////****************uncomment this section to create tables **********************//////////////////
 
 // db.sync({ alter: true });
 // console.log(
