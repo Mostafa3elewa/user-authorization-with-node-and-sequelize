@@ -17,8 +17,7 @@ git clone https://github.com/Mostafa3elewa/Nawy-Assesment.git
 
 Run the following commands to create and setup the database.
 
-```ruby
-bundle install
+```node
 npm i
 ```
 
