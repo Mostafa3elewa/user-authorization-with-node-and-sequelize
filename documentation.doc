@@ -1,0 +1,1 @@
+﻿After register any user, the user git by default role of user, to change this role you have to go to update role as in the postman documentation to change the role to  admin or moderator.
